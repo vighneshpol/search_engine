@@ -29,22 +29,25 @@ This project aims to build a simple **Search Engine** using **Golang** for the b
 
 ## 📂 Folder Structure
 
-search-engine/
-├── backend/
-│   ├── main.go         (Main Go server code)
-│   ├── utils/
-│   │   └── parquet_reader.go (File reading utility)
-│   ├── parquet_files/  (Contains File 1, File 2, ..., File 16)
-│   └── go.mod / go.sum (Go modules)
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx    (Main React App)
-│   │   ├── components/
-│   │   │   └── SearchBar.jsx (Search component)
-│   │   └── services/
-│   │       └── api.js  (API calling logic)
-│   └── package.json (React project dependencies)
-└── README.md (Project description)
+
+# Folder Structure
+
+- **search-engine/**
+  - **backend/**
+    - `main.go` (Main Go server code)
+    - **utils/**
+      - `parquet_reader.go` (File reading utility)
+    - **parquet_files/** (Contains File 1, File 2, ..., File 16)
+    - `go.mod` / `go.sum` (Go modules)
+  - **frontend/**
+    - **src/**
+      - `App.jsx` (Main React App)
+      - **components/**
+        - `SearchBar.jsx` (Search component)
+      - **services/**
+        - `api.js` (API calling logic)
+    - `package.json` (React project dependencies)
+  - `README.md` (Project description)
 
 
 
